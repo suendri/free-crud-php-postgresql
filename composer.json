@@ -1,0 +1,19 @@
+{
+    "name": "suendri/free-crud-php-postgresql",
+    "description": "Create Read Update and Delete with PHP using PDO and Database PostgreSQL",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Suendri",
+            "email": "suendri@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "filp/whoops": "^2.14"
+    }
+}
